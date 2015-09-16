@@ -1,0 +1,87 @@
+body {
+  font-family: "kingthings_trypewriter_2Rg", courier;
+  margin-top: 0.5in;
+}
+
+@media print {
+  body {
+    font-size: 12px;
+    margin: 0.5in;
+  }
+}
+
+.letter {
+  margin: 0 auto;
+  width: 70%;
+}
+
+@media print {
+  .letter {
+    width: 100%;
+  }
+}
+
+.heading {
+  float: right;
+  margin-bottom: 1em;
+  width: 12em;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    float: none;
+  }
+}
+
+  .heading__address {
+  }
+  
+  .heading__date {
+  }
+
+.inside-address {
+  clear: both;
+  margin-bottom: 1em;
+}
+
+.salutation {
+  clear: both;
+  margin-bottom: 1em;
+}
+
+.body {
+  margin-bottom: 1em;
+}
+
+  .prose {
+    text-indent: 1em;
+  }
+
+  .poetry {
+    margin-left: 1em;
+    padding-left: 2em;
+  }
+
+.closing {
+  float: right;
+  margin-bottom: 1em;
+  width: 12em;
+}
+
+@media screen and (max-width: 600px) {
+  .closing {
+    float: none;
+  }
+}
+
+.signature {
+  clear: right;
+  float: right;
+  width: 12em;
+}
+
+@media screen and (max-width: 600px) {
+  .signature {
+    float: none;
+  }
+}
